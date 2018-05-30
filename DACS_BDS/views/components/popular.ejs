@@ -1,0 +1,23 @@
+<div class='widget PopularPosts' data-version='1' id='PopularPosts1'>
+    <h2>Nổi Bật Trong Tuần</h2>
+    <div class='widget-content popular-posts'>
+      <ul>
+        <% list_popular.forEach(test => { %>
+          <li>
+            <div class='item-thumbnail-only'>
+              <div class='item-thumbnail'>
+                <a href='http://templatestcit.blogspot.com/2017/11/cach-cai-at-font-vao-may-tinh-windows.html'>
+                  <img alt='Cách cài đặt Font vào máy tính windows đơn giản' border='0' height='72' src='https://2.bp.blogspot.com/-v5Xcco6YMQg/WggzDc7MnPI/AAAAAAAAAD0/LjBw8i4A-5sBrW19sZBhSdgTKHXrDUdfgCLcBGAs/s72-c/thumbnall.png'
+                    width='72' />
+                </a>
+              </div>
+              <div class='item-title'>
+                <a href='http://templatestcit.blogspot.com/2017/11/cach-cai-at-font-vao-may-tinh-windows.html'><%= test.title %></a>
+              </div>
+            </div>
+            <div style='clear: both;'></div>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
