@@ -1,0 +1,298 @@
+<div id='content-share123-1'>
+    <div class='content-share123-1 section' id='content-share123-1'>
+        <div class='widget HTML' data-version='1' id='HTML97'>
+            <div class='title-search'>
+                <h3>Tìm kiếm bất động sản</h3>
+            </div>
+            <style type='text/css'>
+                .tab8-widget {}
+
+                .tab8-widget li {
+                    list-style: none;
+                    list-style-type: none;
+                    padding: 0;
+                    float: left;
+                }
+
+                .tab8-widget li:first-child {
+                    margin: 0
+                }
+
+                .tab8-widget li a {
+                    color: #222;
+                    padding: 8px 15px;
+                    margin: 10px 4px 0 4px;
+                    border-radius: 5px 5px 0 0;
+                    display: block;
+                    text-decoration: none;
+                    font: bold 12px Arial;
+                    text-transform: none;
+                }
+
+                .tab8-widget li a:hover,
+                .tab8-widget li a.tab8-widget-current {
+                    color: #222;
+                    text-decoration: none;
+                    background: #fff;
+                    border: 1px solid #999;
+                    border-bottom: #fff solid 1px;
+                }
+
+                .tab8-widget-content {
+                    margin-top: -20px;
+                }
+
+                .tabviewsection {
+                    width: 100%;
+                    margin: 0;
+                    background: rgba(229, 238, 247, 1);
+                    background: -moz-linear-gradient(top, rgba(229, 238, 247, 1) 0%, rgba(202, 220, 234, 1) 100%);
+                    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(229, 238, 247, 1)), color-stop(100%, rgba(202, 220, 234, 1)));
+                    background: -webkit-linear-gradient(top, rgba(229, 238, 247, 1) 0%, rgba(202, 220, 234, 1) 100%);
+                    background: -o-linear-gradient(top, rgba(229, 238, 247, 1) 0%, rgba(202, 220, 234, 1) 100%);
+                    background: -ms-linear-gradient(top, rgba(229, 238, 247, 1) 0%, rgba(202, 220, 234, 1) 100%);
+                    background: linear-gradient(to bottom, rgba(229, 238, 247, 1) 0%, rgba(202, 220, 234, 1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5eef7', endColorstr='#cadcea', GradientType=0);
+                    float: left;
+                }
+
+                select#FKi_DanhMucBDSCanBan,
+                select#FKi_ThanhPhoCanBan,
+                select#FKi_QuanHuyenCanBan,
+                select#iGiaCanBan,
+                select#iDienTichCanBan,
+                select#iHuongNhaCanBan,
+                select#iPhongNguCanBan {
+                    margin: 1px 0 2px 12px;
+                    padding: 4px;
+                    width: 90%;
+                }
+
+                .search-bt {
+                    position: absolute;
+                    top: 280px;
+                }
+            </style>
+            <div class='tabviewsection'>
+                <script type='text/javascript'> 
+                    jQuery(document).ready(function ($) {
+                        $(".tab8-widget-content-widget-themater_tab8-tap-id").hide();
+                        $("ul.tab8-widget-widget-themater_tab8-tap-id li:first a").addClass("tab8-widget-current").show();
+                        $(".tab8-widget-content-widget-themater_tab8-tap-id:first").show();
+
+                        $("ul.tab8-widget-widget-themater_tab8-tap-id li a").click(function () {
+                            $("ul.tab8-widget-widget-themater_tab8-tap-id li a").removeClass("tab8-widget-current a");
+                            $(this).addClass("tab8-widget-current");
+                            $(".tab8-widget-content-widget-themater_tab8-tap-id").hide();
+                            var activeTab = $(this).attr("href");
+                            $(activeTab).fadeIn();
+                            return false;
+                        });
+                    }); 
+                </script>
+                <ul class='tab8-widget tab8-widget-widget-themater_tab8-tap-id'>
+                    <li>
+                        <a href='#'>Nhà đất bán</a>
+                    </li>
+                </ul>
+                <div class='tab8-widget-content tab8-widget-content-widget-themater_tab8-tap-id' id='widget-themater_tab8-tap-id1'>
+                </div>
+                <div class='tab8-widget-content tab8-widget-content-widget-themater_tab8-tap-id' id='widget-themater_tab8-tap-id2'>
+                </div>
+            </div>
+            <li class='search'>
+                <form action='http://demo6.share123.com.vn/search' id='share123vn-searchform' method='get'>
+                    <input id='s' name='q' onblur='if (this.value == "") {this.value =  "Nhập địa điểm ...";}' onfocus='if (this.value == "Nhập địa điểm ...")  {this.value = ""}'
+                     type='text' value='Nhập địa điểm ...' />
+                    <input id='sbutton' src='../1.bp.blogspot.com/-1ibO0ZHdF_M/VqBUk2u_EdI/AAAAAAAAEQM/Q_LuG38CX2Q/s1600/timkiem-icon.png' type='image'
+                    />
+                </form>
+            </li>
+            <select id="FKi_DanhMucBDSCanBan" name="FKi_DanhMucBDSCanBan">
+                <option value="" /> == Chuyên mục ==
+                <!--
+                    <option value="4" />Bán căn hộ chung cư
+                    <option value="7" />Bán nhà riêng
+                    <option value="8" />Bán biệt thự
+                    <option value="10" />Bán nhà mặt phố
+                    <option value="11" />Bán đất nền dự án
+                    <option value="13" />Bán nhà đất thổ cư
+                    <option value="15" />Bán trang trại,khu nghỉ dưỡng
+                    <option value="16" />Bán kho, xưởng
+                    <option value="17" />Bán loại bất động sản khác
+                    -->
+            </select>
+            <select id="FKi_ThanhPhoCanBan" name="FKi_ThanhPhoCanBan" onchange="loadDistricCanBan(this.value);">
+                <option value="" />== Chọn thành phố ==
+                <!--
+                    <option value="16" />Bắc Cạn
+                <option value="15" />Bắc Giang
+                <option value="17" />Bắc Ninh
+                <option value="8" />Cao Bằng
+                <option value="7" />Điện Biên
+                <option value="33" />Hà Giang
+                <option value="35" />Hà Nam
+                <option value="1" />Hà Nội
+                <option value="5" />Hải Dương
+                <option value="2" />Hải Phòng
+                <option value="39" />Hoà Bình
+                <option value="38" />Hưng Yên
+                <option value="42" />Lai Châu
+                <option value="43" />Lạng Sơn
+                <option value="44" />Lào Cai
+                <option value="6" />Nam Định
+                <option value="48" />Ninh Bình
+                <option value="50" />Phú Thọ
+                <option value="55" />Quảng Ninh
+                <option value="58" />Sơn La
+                <option value="62" />Thái Bình
+                <option value="31" />Thái Nguyên
+                <option value="60" />Thanh Hoá
+                <option value="66" />Tuyên Quang
+                <option value="63" />Vĩnh Phúc
+                <option value="64" />Yên Bái
+                <option value="21" />Bình Định
+                <option value="22" />Bình Phước
+                <option value="23" />Bình Thuận
+                <option value="3" />Đà Nẵng
+                <option value="26" />Đắk Lắk
+                <option value="27" />Đắk Nông
+                <option value="30" />Gia Lai
+                <option value="37" />Hà Tĩnh
+                <option value="40" />Khánh Hòa
+                <option value="10" />Kontum
+                <option value="45" />Lâm Đồng
+                <option value="47" />Nghệ An
+                <option value="49" />Ninh Thuận
+                <option value="51" />Phú Yên
+                <option value="52" />Quảng Bình
+                <option value="53" />Quảng Nam
+                <option value="54" />Quảng Ngãi
+                <option value="56" />Quảng Trị
+                <option value="61" />Thừa Thiên Huế
+                <option value="160" />TP Vinh
+                <option value="13" />An Giang
+                <option value="20" />Bà Rịa - Vũng Tàu
+                <option value="14" />Bạc Liêu
+                <option value="19" />Bến Tre
+                <option value="9" />Bình Dương
+                <option value="25" />Cà Mau
+                <option value="24" />Cần Thơ
+                <option value="28" />Đồng Nai
+                <option value="29" />Đồng Tháp
+                <option value="32" />Hậu Giang
+                <option value="41" />Kiên Giang
+                <option value="46" />Long An
+                <option value="57" />Sóc Trăng
+                <option value="59" />Tây Ninh
+                <option value="34" />Tiền Giang
+                <option value="4" />TP HCM
+                <option value="18" />Trà Vinh
+                <option value="65" />Vĩnh Long
+                -->
+            </select>
+            <select id="FKi_QuanHuyenCanBan" name="FKi_QuanHuyenCanBan" disabled="">
+                <option value="" />== Chọn quận huyện ==
+            </select>
+            <select id="iGiaCanBan" name="iGiaCanBan">
+                <option value="" />== Chọn mức giá ==
+                <!--
+                    <option value="0,500,1000000" />&lt; 500 triệu
+                <option value="500,800,1000000" />500 - 800 triệu
+                <option value="800,1000,1000000" />800 triệu - 1 tỷ
+                <option value="1,2,1000000000" />1 - 2 tỷ
+                <option value="2,3,1000000000" />2 - 3 tỷ
+                <option value="3,5,1000000000" />3 - 5 tỷ
+                <option value="5,7,1000000000" />5 - 7 tỷ
+                <option value="7,10,1000000000" />7 - 10 tỷ
+                <option value="10,20,1000000000" />10 - 20 tỷ
+                <option value="20,30,1000000000" />20 - 30 tỷ
+                <option value="30,999,1000000000" />&gt; 30 tỷ
+                -->
+            </select>
+            <select id="iDienTichCanBan" name="iDienTichCanBan">
+                <option value="" />== Chọn diện tích ==
+                <!--
+                    <option value="0,30" />&lt;= 30 m&#178;
+                <option value="30,50" />30 - 50 m&#178;
+                <option value="50,80" />50 - 80 m&#178;
+                <option value="80,100" />80 - 100 m&#178;
+                <option value="100,150" />100 - 150 m&#178;
+                <option value="150,200" />150 - 200 m&#178;
+                <option value="200,250" />200 - 250 m&#178;
+                <option value="250,300" />250 - 300 m&#178;
+                <option value="300,500" />300 - 500 m&#178;
+                <option value="500,9999" /> &gt;=500 m&#178;
+                -->
+            </select>
+            <div class='clear'></div>
+            <span class='widget-item-control'>
+                <span class='item-control blog-admin'>
+                    <a class='quickedit' href='http://www.blogger.com/rearrange?blogID=9125630884986357051&amp;widgetType=HTML&amp;widgetId=HTML97&amp;action=editWidget&amp;sectionId=content-share123-1'
+                     onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML97"));' target='configHTML97' title='Chỉnh sửa'>
+                        <img alt='' height='18' src='../resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18' />
+                    </a>
+                </span>
+            </span>
+            <div class='clear'></div>
+        </div>
+        <div class='widget HTML' data-version='1' id='HTML98'>
+            <div class='gach-ngang-red'>
+                <span class='font-slidershow-title'>
+                    TIÊU ĐIỂM
+                </span>
+            </div>
+            <div class='sompret-wrapper'>
+                <div class='sompret'>
+                    <div class='image_reel'>
+                        <script>
+                            document.write("<script src=\"/feeds/posts/default?max-results=" + numposts1 + "&orderby=published&alt=json-in-script&callback=showrecentposts2\"><\/script>");
+                        </script>
+                    </div>
+                    <div class='description'>
+                        <script>         
+                            document.write("<script src=\"/feeds/posts/default?max-results=" + numposts1 + "&orderby=published&alt=json-in-script&callback=showrecentposts1\"><\/script>");
+                        </script>
+                    </div>
+                </div>
+                <div class='paging'>
+                    <a href='#' rel='1'></a>
+                    <a href='#' rel='2'></a>
+                    <a href='#' rel='3'></a>
+                    <a href='#' rel='4'></a>
+                    <a href='#' rel='5'></a>
+                    <a href='#' rel='6'></a>
+                </div>
+            </div>
+            <div class='clear'></div>
+            <span class='widget-item-control'>
+                <span class='item-control blog-admin'>
+                    <a class='quickedit' href='http://www.blogger.com/rearrange?blogID=9125630884986357051&amp;widgetType=HTML&amp;widgetId=HTML98&amp;action=editWidget&amp;sectionId=content-share123-1'
+                     onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML98"));' target='configHTML98' title='Chỉnh sửa'>
+                        <img alt='' height='18' src='../resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18' />
+                    </a>
+                </span>
+            </span>
+            <div class='clear'></div>
+        </div>
+        <div class='widget HTML' data-version='1' id='HTML99'>
+            <div class='box-left'>
+                <a href="index.html">
+                    <img src="../1.bp.blogspot.com/--upy7mQLZRs/VpE_dSUinJI/AAAAAAAAEMM/x0-mMD_4xiw/s1600/Banner-Imperia.jpg" width="100%"
+                     height="315" />
+                </a>
+            </div>
+            <div class='clear'></div>
+            <span class='widget-item-control'>
+                <span class='item-control blog-admin'>
+                    <a class='quickedit' href='http://www.blogger.com/rearrange?blogID=9125630884986357051&amp;widgetType=HTML&amp;widgetId=HTML99&amp;action=editWidget&amp;sectionId=content-share123-1'
+                     onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML99"));' target='configHTML99' title='Chỉnh sửa'>
+                        <img alt='' height='18' src='../resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18' />
+                    </a>
+                </span>
+            </span>
+            <div class='clear'></div>
+        </div>
+    </div>
+</div>
+<div style='clear:both'></div>

@@ -17,7 +17,7 @@ const bodyParser = require('body-parser').urlencoded({
     extended: false
 });
 app.get('/',(req, res) => {
-    res.redirect('/post/get-list-post')
+    res.render('index')
 })
 
 // app config
